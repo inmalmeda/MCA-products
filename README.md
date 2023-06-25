@@ -1,4 +1,4 @@
-<h1>Products Project MCA</h1></br>
+<h1>MCA Products</h1></br>
 <em> Author: Inmaculada C. Jiménez Almeda </em>
 
 ----
