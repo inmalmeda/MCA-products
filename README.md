@@ -26,7 +26,7 @@
 >`cd ..`
 
 5º Ejecutar el comando que monta el contenedor docker de la aplicación y la arranca: </br>
->`docker run -p5000:5000 products-project:latest`
+>`docker-compose up -d products`
 
 6º Acceder a la siguiente URL de Swagger para probar la aplicación: </br>
 >` http://localhost:5000/swagger-ui/index.html`
