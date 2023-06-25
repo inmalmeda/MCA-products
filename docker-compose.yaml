@@ -1,6 +1,6 @@
 version: "3.3"
 services:
   products:
-    image : products-project
+    image : products-project:latest
     ports:
       - "5000:5000"
