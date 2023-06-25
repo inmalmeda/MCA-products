@@ -28,7 +28,7 @@ import com.mca.products.rest.RestClient;
 
 @ExtendWith(MockitoExtension.class)
 public class ProductsUseCaseImplTest {
-	
+		
 	@InjectMocks
 	private ProductsUseCaseImpl productsUseCase;
 	
@@ -39,14 +39,14 @@ public class ProductsUseCaseImplTest {
 	RestClient restClient;	
 		
 	@Test
-    public void getProductSimilaReturnExceptionWhenIdNull() { 		
+    	public void getProductSimilaReturnExceptionWhenIdNull() { 		
 		Assertions.assertThrows(InvalidDataException.class, () -> {
 			productsUseCase.getSimilarProduct(null);
 		});
-    }
+    	}
 	
 	@Test
-    public void getProductSimilaReturnOk() { 	
+   	public void getProductSimilaReturnOk() { 	
 				
 		ProductDetail productDetail = new ProductDetail();
 		productDetail.setId("1");
@@ -66,5 +66,5 @@ public class ProductsUseCaseImplTest {
 		
 		assertNotNull(products);
 		assertEquals(products, productToCompare);		
-    }
+    	}
 }
