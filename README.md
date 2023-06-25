@@ -1,15 +1,15 @@
-#Products Project MCA#
+<h1>Products Project MCA</h1></br>
 <em> Author: Inmaculada C. Jiménez Almeda </em>
 
 ----
-####Ejecución del proyecto####
+<h3>Ejecución del proyecto</h3>
 
-**Requerimientos:**
+**Requerido:**
 
 - Java: Version 16
 - Docker
 - Maven
-- Los puertos 5000 y 3001 deben estar liberados
+- Los puertos 5000 y 3001 tienen que estar liberados
 
 **Pasos a seguir:**
 
@@ -36,11 +36,11 @@ Para la ejecución de los test ejecutar el comando en la carpeta products-back: 
 
 ----
 
-#####Ejemplos de peticiones:#####
+<h3>Ejemplos de peticiones:</h3>
 
 _Peticiones OK:_
 
->`http://localhost:5000/product/1/similar`
+>`http://localhost:5000/product/1/similar` </br>
 >`http://localhost:5000/product/2/similar`
 
 _Petición KO:_
