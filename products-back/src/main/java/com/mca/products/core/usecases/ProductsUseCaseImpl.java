@@ -18,8 +18,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * Use cases for product
- * @author ijimenez
- *
  */
 @Slf4j
 @Service
