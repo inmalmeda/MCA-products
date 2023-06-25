@@ -27,7 +27,7 @@ public class ProductsControllerTest {
     ProductsController productsController;
     
     @Mock
-	private ProductsUseCase productsUseCase;
+    ProductsUseCase productsUseCase;
     
     @Test
     public void getProductSimilarReturnNotFound() {    	
