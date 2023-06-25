@@ -9,7 +9,7 @@
 - Java: Version 16
 - Docker
 - Maven
-- Los puertos 5000 y 3001 tienen que estar liberados
+- El puerto 5000 tiene que estar liberado
 
 **Pasos a seguir:**
 
