@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  products:
+    image : products-project
+    ports:
+      - "5000:5000"
